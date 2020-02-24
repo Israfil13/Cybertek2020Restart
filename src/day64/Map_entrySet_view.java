@@ -14,6 +14,7 @@ public class Map_entrySet_view {
         groceryPriceMap.put("Grape", 3.99);
         groceryPriceMap.put("Banana", 1.99);
         groceryPriceMap.put("Apple", 1.89);
+        groceryPriceMap.put("Apple", 1.89);
 
 //        How to iterate over a Map and update the value at the same time according to certain condition
 //         Interview Question
