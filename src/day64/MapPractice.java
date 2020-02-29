@@ -22,5 +22,19 @@ public class MapPractice {
         groupMap.get("Justice League").add("Flash");
         System.out.println("groupMap.get(\"Justice League\") = " + groupMap.get("Justice League"));
 
+
+        for (String each:groupMap.get("PowerOf4")){
+            if (each.equals("Muge")){
+                System.out.println("each = " + each);
+            }
+        }
+
+//        for (int i = 0; i <groupMap.get("PowerOf4").size() ; i++) {
+//            if (groupMap.get("PowerOf4").get(i).equals("Muge")){
+//                System.out.println(groupMap.get("PowerOf4").get(i));
+//            }
+//        }
+//
+
     }
 }
