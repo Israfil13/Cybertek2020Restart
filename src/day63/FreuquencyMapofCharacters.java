@@ -14,6 +14,7 @@ public class FreuquencyMapofCharacters {
                 charfreq.put(stttr.charAt(i),1);
             }else {
                 charfreq.replace(stttr.charAt(i),charfreq.get(stttr.charAt(i))+1);
+
             }
         }
 
